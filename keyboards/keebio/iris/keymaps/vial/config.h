@@ -20,7 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define USE_I2C
 #define EE_HANDS
 
-// Added by Brian C. Arnold to support Vial.
-#define VIAL_KEYBOARD_UID {0xBC, 0x99, 0xF2, 0x61, 0x45, 0x7C, 0xC8, 0xB9}
-#define VIAL_UNLOCK_COMBO_ROWS {0,9}
-#define VIAL_UNLOCK_COMBO_COLS {0,5}
+/*// Added by Brian C. Arnold to support Vial.
+//#define VIAL_KEYBOARD_UID {0xBC, 0x99, 0xF2, 0x61, 0x45, 0x7C, 0xC8, 0xB9}*/
+
+//Added by Jesse Dubin based on output from python3 util/vial_generate_keyboard_uid.py
+#define VIAL_KEYBOARD_UID {0x39, 0x01, 0xE1, 0x25, 0x65, 0xAA, 0xFA, 0xF0}
+#define VIAL_UNLOCK_COMBO_ROWS {0,0}
+#define VIAL_UNLOCK_COMBO_COLS {0,1}
